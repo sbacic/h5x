@@ -1,0 +1,25 @@
+{
+  "name": "h5x",
+  "version": "0.1.0",
+  "description": "Run html as though it was a shell script.",
+  "repository": "sbacic/h5x",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "bin" : {"h5x" : "bin/h5x"},
+  "author": "Slaven Bacic",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cli": "^1.0.0",
+    "connect": "^3.5.0",
+    "cors": "^2.8.1",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.6"
+  }
+}
